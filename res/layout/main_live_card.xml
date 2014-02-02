@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="640px"
+    android:layout_height="360px"
+    android:orientation="vertical"
+    android:padding="40px">
+    
+    <ImageView
+        android:id="@+id/drone_image"
+        android:layout_width="240px"
+        android:layout_height="240px"
+        android:gravity="center"
+        android:src="@drawable/ic_launcher" />
+    
+    <TextView android:id="@+id/prompt_to_start"
+        android:layout_width="match_parent"
+        android:layout_height="40px"
+        android:textSize="26px"
+        android:gravity="center_horizontal"
+        android:text="@string/prompt_to_start" />
+    
+</LinearLayout>
